@@ -1,0 +1,21 @@
+num=int(input("Enter the number"))
+print(num*2)
+
+number=int(input("Enter the number"))
+print(number*number
+
+n=int(input("enter the n"))
+m=int(input("enter the m"))
+print(m+n,"~")
+
+n=int(input("enter the n"))
+m=int(input("enter the m"))
+print(m+n,"#")
+
+n=int(input("enter the n"))
+m=int(input("enter the m"))
+print(m*n,"+")
+
+n=int(input("enter the n"))
+m=int(input("enter the m"))
+print(m,n,".")
