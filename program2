@@ -1,0 +1,8 @@
+a=20
+b=8
+print(a/b,"!")
+
+num1=int(input("enter the number"))
+num2=int(input("enter the number"))
+print(num1-num2,";")
+
