@@ -1,0 +1,90 @@
+'''#area and perimeter if triangle
+a=int(input("Enter the value of a"))
+b=int(input("Enter the value of b"))
+c=int(input("Enter the value of c"))
+print("perimeter of triagle is",a+b+c)
+print("area of triangle is",1/2*a*c)
+
+
+#area and perimeter of square
+side=int(input("Enter the side"))
+print("Area of square is ",side *side)
+print("Perimeter of square is",4*side)
+
+
+#swaping of two numbers
+a=int(input("enter the value of a"))
+b=int(input("enter the value of b"))
+c=a
+a=b
+b=c
+print(a)
+print(b)
+
+
+#convert farenheit to celsius
+farenheit=int(input("enter the value in farenheit"))
+celsius=((farenheit-32)*5)/9
+print("tempreture in celsius is",celsius)
+
+
+#convert celsius to farenheit
+celsius=int(input("enter the value in celsius"))
+farenheit=(celsius*9/5)+32
+print("tempreture in celsius is",farenheit)
+
+
+#divide two no. with !
+a=20
+b=8
+print(a/b,"!")
+
+#subtract two no. with ; 
+num1=int(input("enter the number"))
+num2=int(input("enter the number"))
+print(num1-num2,";")
+
+#find reminder of two no. with *
+a=10
+b=4
+print(str(a%b),"*")
+
+#double the no. and print
+num=int(input("Enter the number"))
+print(num*2)
+
+#find square of the no.
+number=int(input("Enter the number"))
+print(number*number)
+
+#add two no. with ~
+n=int(input("enter the n"))
+m=int(input("enter the m"))
+print(m+n,"~")
+
+#add two no. with #
+n=int(input("enter the n"))
+m=int(input("enter the m"))
+print(m+n,"#")
+
+#multiply the two no. with +
+n=int(input("enter the n"))
+m=int(input("enter the m"))
+print(m*n,"+")
+
+#print two no. with .
+n=int(input("enter the n"))
+m=int(input("enter the m"))
+print(m,n,".")
+
+#swaping the value of three variables
+a=int(input("enter the value of a"))
+b=int(input("enter the value of b"))
+c=int(input("enter the value of c"))
+d=c
+c=b
+b=a
+a=d
+print(a)
+print(b)
+print(c)'''
