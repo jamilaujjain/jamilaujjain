@@ -1,0 +1,35 @@
+oxygen=int(input("enter the avbility of oxygen 1/2 : "))
+if oxygen==1:
+   print("we can breath")
+else:
+   print("we can not breath")
+   
+
+
+petrol=int(input("enter the avability of petrol 1/2 : "))
+if petrol==1:
+   print("we can drive")
+else:  
+   print("we can not breath")
+
+
+energy=int(input("enter the presence of energy 1/2 : "))
+if energy==1:
+   print("your bodu can work")
+else:
+   print("your body can not work")
+
+
+water=int(input("enter the avability of water 1/2 : "))
+if water==1:
+    print("plants can live")
+else:
+    print("plants can not live")
+
+
+
+carbondioxide=int(input("enetr the avability of carbondioxide 1/2 : "))
+if carbondioxide==1:
+    print("photosynthesis will occur")
+else:
+    print("photosynthesis can not occur")
