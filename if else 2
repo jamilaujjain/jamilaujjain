@@ -1,0 +1,113 @@
+'''#Q1
+num=int(input("enter the number"))
+if num>=0:
+   print("number is positive")
+else:
+   print("number is negative")
+
+
+
+#Q2
+number=int(input("emter the number"))
+if number%2==0:
+   print("the number is even")
+else:
+   print("the number is odd")
+
+
+#Q3
+num1=int(input("enter the number1"))
+num2=int(input("enter the number2"))
+if num2<=num1:
+   print("number 1 is greater")
+else:
+   print("number 2 is greater")
+
+
+#Q4
+num1=int(input("enter the number1 "))
+num2=int(input("enter the number2 "))
+sum=num1+num2
+print(sum)
+if sum%2==0:
+   print("sum is even")
+else:
+   print("sum is odd")
+
+
+#Q5
+num1=int(input("enter the number1 "))
+num2=int(input("enter the number2 "))
+num3=int(input("enter the number3 "))
+percentage=(num1+num2+num3/3)*100
+print(percentage)
+if percentage<=50:
+   print("above 50")
+else:
+   print("below 50")
+
+
+
+#Q6
+score=int(input("enter your score"))
+if score>=40:
+   print("pass")
+else:
+   ("fail")
+
+#Q9
+num1=int(input("enter the number"))
+num2=int(input("enter the number"))
+operater=input("enter the operater +,-,/,*")
+if operater=="*":
+   print(num1*num2)
+elif operater=="+":
+   print(num1+num2)
+elif operater=="-":
+   print(num1-num2)
+elif operater=="/":
+   print(num1/num2)
+else:
+   print("not valid")
+
+
+
+#Q7
+year=int(input("enter the year"))
+if year%4==0:
+   print("its leap year")
+else:
+   print("its not  leap year")
+
+
+#Q10
+time=int(input("enter the time: "))
+if time>5 and time<=11:
+   print("good morning")
+elif time>12 and time<=17:
+   print("good afternoon")
+else:
+    print("good evening")
+
+
+#Q8
+num1=int(input("enter the number: "))
+num2=int(input("enter the number: "))
+a=num1*num2
+if num1==num2 :
+   print("it is equal")
+else:
+   print("it is not equal")'''
+   
+
+#Q11
+income=int(input("enetr your income"))
+if income<50000:
+   tax=income*5/100
+   print(tax)
+elif income>=50000 and income<=100000:
+   tax=income*10/100
+   print(tax)
+else:
+   tax=income*15/100
+   print(tax)
